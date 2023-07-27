@@ -1,0 +1,16 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './index.css';
+@import './App.css';
+
+
+/* The container class centers the element horizontally and provides responsive padding */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    /* Responsive padding - Adjust the values as needed */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
